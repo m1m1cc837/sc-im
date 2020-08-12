@@ -2260,6 +2260,8 @@ int fcopy(char * action) {
     end_undo_action();
 #endif
 
+    rebuild_graph();
+
     return 0;
 }
 
